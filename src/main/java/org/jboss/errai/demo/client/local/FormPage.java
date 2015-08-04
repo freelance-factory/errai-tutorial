@@ -1,15 +1,16 @@
 package org.jboss.errai.demo.client.local;
 
-import com.google.gwt.user.client.ui.ListBox;
-import com.google.gwt.user.client.ui.TextArea;
-import com.google.gwt.user.client.ui.TextBox;
+import javax.inject.Inject;
+
 import org.jboss.errai.demo.client.shared.model.Ticket;
 import org.jboss.errai.ui.shared.api.annotations.DataField;
 import org.jboss.errai.ui.shared.api.annotations.Templated;
 
-import javax.inject.Inject;
+import com.google.gwt.user.client.ui.ListBox;
+import com.google.gwt.user.client.ui.TextArea;
+import com.google.gwt.user.client.ui.TextBox;
 
-@Templated("MainPage.html#app-template")
+@Templated("FormPage.html#app-template")
 public class FormPage {
 
     private Ticket ticket;
