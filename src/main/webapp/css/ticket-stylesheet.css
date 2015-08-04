@@ -1,3 +1,7 @@
+.container-static {
+}
+
 .app-inside {
-    width: 1024px;
+    width: 70%;
+    text-align: center;
 }
