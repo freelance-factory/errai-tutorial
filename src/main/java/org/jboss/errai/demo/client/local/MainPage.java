@@ -5,7 +5,7 @@ import org.jboss.errai.ui.nav.client.local.Page;
 import org.jboss.errai.ui.shared.api.annotations.Templated;
 
 @Page(role = DefaultPage.class)
-//@Templated("MainPage.html#app-template")
+@Templated("MainPage.html#app-template")
 public class MainPage {
 
 }
