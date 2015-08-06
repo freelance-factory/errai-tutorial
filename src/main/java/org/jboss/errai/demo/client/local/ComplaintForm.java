@@ -38,7 +38,7 @@ import com.google.gwt.user.client.ui.TextBox;
  * specified role (DefaultPage.class) make this page appear by default when the
  * application is started.
  */
-@Page(role = DefaultPage.class)
+//@Page(role = DefaultPage.class)
 @Templated("ComplaintForm.html#app-template")
 public class ComplaintForm extends Composite {
 
